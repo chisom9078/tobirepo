@@ -1,6 +1,6 @@
 import Title from "./Title";
 import ProjectsCard from "./ProjectsCard";
-import { projectOne, projectThree, projectTwo } from "../assets";
+import { projectOne, projectThree, projectTwo,testimonialOne } from "../assets";
 import { FadeIn } from "./FadeIn";
 
 const Projects = () => {
@@ -53,7 +53,13 @@ const Projects = () => {
             src={projectTwo}
           />
           </a>
-        
+          <a href="https://movieapp-livid-tau.vercel.app/">
+          <ProjectsCard
+            title="Nety"
+            des="Movie App"
+            src={testimonialOne}
+          />
+          </a>
         </div>
       </FadeIn>
     </section>
