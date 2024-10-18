@@ -40,7 +40,7 @@ const Projects = () => {
             des=" An online retail platform where customers can purchase both brand-new and refurbished smartphones."
             src={projectThree}
           /></a>
-         <a href="wintercoin.org">
+         <a href="https://www.wintercoin.org/">
           <ProjectsCard
             title="Wallet Connect"
             des=" The wallet app is a secure and user-friendly mobile application designed for seamless financial management."
